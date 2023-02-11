@@ -5,69 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <title>calculadora</title>
+    <title>Calculator</title>
 </head>
 <body>
-    <div class="container">
-        
-            <div class="screeen">
-                <p id="screen"> </p>
+    <div class="content-left">
+        <div class="inside-content">
+            <div class="simbol">
+                <h1> simple calculator</h1>
+                <span>Html</span>
+                <span>css</span>
+                <span>javascript</span>
             </div>
-        
-        <div class="box">
-            <div class="buttons">
-                <div id="line">
-                
-                    <input type="button" value="1"  id="bt1" onclick="insert(value)">
-                    <input type="button" value="2" id="bt2"  onclick="insert(value)">
-                    <input type="button" value="3" id="bt3"  onclick="insert(value)">  
-
-                </div>
-                <div id="line">
-                
-                    <input type="button" value="4" id="bt4" onclick="insert(value)">
-                    <input type="button" value="5" id="bt5" onclick="insert(value)">
-                    <input type="button" value="6" id="bt6" onclick="insert(value)">
-
-                </div>
-             
-
-                <div id="line">
-                
-                    <input type="button" value="7" id="bt7" onclick="insert(value)">
-                    <input type="button" value="8" id="bt8" onclick="insert(value)">
-                    <input type="button" value="9" id="bt9" onclick="insert(value)">
-
-                </div>
-                <div id="line">
-                
-                    <input type="button" value="0" id="bt0" onclick="insert(value)">
-                    <input type="button" value="00" id="bt00" onclick="insert(value)">
-                    <input type="button" value="." id="btdot" onclick="insert(value)">
-
-                </div>
-                <div id="line">
-                
-                    <input type="button" value="/" id="div" onclick="insert(value)">
-                    <input type="button" value="-" id="sub" onclick="insert(value)">
-                    <input type="button" value="=" id="igu" onkeypress="ins(value)" >
-
-                </div>
-             
-
-             
-
-            </div>
-            <div class="side-buttons">
-                     <input type="button" value="<" id="back" >
-                    <input type="button" value="c" id="c" >
-                    <input type="button" value="*" id="mul" onclick="insert(value)">
-                    <input type="button" value="+" id="adi" onclick="insert(value)">
-                   
-            </div>
-           
         </div>
     </div>
+
+    <div class="content-right">
+      
+   
+        <div class="container">
+            
+                <div class="screeen">
+                    <p id="screen"> </p>
+                </div>
+            
+            <div class="box">
+                <div class="buttons">
+                    <div id="line">
+                    
+                        <input type="button" value="1"  id="bt1" onclick="insert(value)">
+                        <input type="button" value="2" id="bt2"  onclick="insert(value)">
+                        <input type="button" value="3" id="bt3"  onclick="insert(value)">  
+
+                    </div>
+                    <div id="line">
+                    
+                        <input type="button" value="4" id="bt4" onclick="insert(value)">
+                        <input type="button" value="5" id="bt5" onclick="insert(value)">
+                        <input type="button" value="6" id="bt6" onclick="insert(value)">
+
+                    </div>
+                
+
+                    <div id="line">
+                    
+                        <input type="button" value="7" id="bt7" onclick="insert(value)">
+                        <input type="button" value="8" id="bt8" onclick="insert(value)">
+                        <input type="button" value="9" id="bt9" onclick="insert(value)">
+
+                    </div>
+                    <div id="line">
+                    
+                        <input type="button" value="0" id="bt0" onclick="insert(value)">
+                        <input type="button" value="00" id="bt00" onclick="insert(value)">
+                        <input type="button" value="." id="btdot" onclick="insert(value)">
+
+                    </div>
+                    <div id="line">
+                    
+                        <input type="button" value="/" id="div" onclick="insert(value)">
+                        <input type="button" value="-" id="sub" onclick="insert(value)">
+                        <input type="button" value="+" id="adi" onclick="insert(value)">
+
+                    </div>
+                
+
+                
+
+                </div>
+                <div class="side-buttons">
+                        <input type="button" value="<" id="back" >
+                        <input type="button" value="c" id="c" >
+                        <input type="button" value="*" id="mul" onclick="insert(value)">
+                        <input type="button" value="=" id="igu" onkeypress="ins(value)" >
+                        
+                    
+                </div>
+            
+            </div>
+        </div>
+</div>
     <script src="/script.js"></script>
 </body>
 </html>
